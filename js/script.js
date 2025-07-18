@@ -59,6 +59,6 @@ todoControl.addEventListener("submit", function (event) {
     }
 })
 
-if (localStorage.getItem("toDoData") !== null) {
+if (localStorage.getItem("toDoData")) {
     render()
 }
