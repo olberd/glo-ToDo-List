@@ -31,7 +31,7 @@ const render = function () {
         })
         
         li.querySelector(".todo-remove").addEventListener("click", function () {
-            delete toDoData[index]
+            toDoData.splice(index, 1)
             render()
         } )
 
